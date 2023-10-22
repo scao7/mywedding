@@ -209,12 +209,53 @@
 
 				</div>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/yxbFa9DuHyo?si=nciTzUl6Ci8cDBrG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Aiq2YGAmM7w?si=Zfvsi_qq5_vJ-KDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ww1sUCyRiQU?si=vC3w4ZqA_XIRRYYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/qGjWb30v-iY?si=Drxd2eJZNqD5EliX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/c5H1BcXFAFA?si=ZLzxAfA_EL65NIZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/tHQ-BU_dqv0?si=5KcjpCQ46ec0U8cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+			<style>
+				/* Default styles for the single column layout */
+				.video-container {
+				  width: 100%;
+				}
+			
+				/* Media query for screens with a minimum width of 768px (PC) */
+				@media (min-width: 768px) {
+				  .video-container {
+					display: grid;
+					grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+					gap: 20px; /* Adjust the gap as needed */
+				  }
+				}
+			  </style>
+			</head>
+			<body>
+			
+			<div class="video-container">
+			  <div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/yxbFa9DuHyo?si=nciTzUl6Ci8cDBrG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Aiq2YGAmM7w?si=Zfvsi_qq5_vJ-KDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
+			</div>
+			<div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ww1sUCyRiQU?si=vC3w4ZqA_XIRRYYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qGjWb30v-iY?si=Drxd2eJZNqD5EliX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/c5H1BcXFAFA?si=ZLzxAfA_EL65NIZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="video-column">
+				<!-- Embed your video here, e.g., YouTube iframe -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/tHQ-BU_dqv0?si=5KcjpCQ46ec0U8cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			  <!-- Add another video column here if needed -->
+			</div>
+
 			<!-- <div class="container animate-box">
 					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
 						<a href="https://youtu.be/yxbFa9DuHyo?si=4ImvUCZx20qMZC47" class="popup-vimeo"><i class="icon-video2"></i></a>

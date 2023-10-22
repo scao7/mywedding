@@ -1,4 +1,4 @@
-My wedding template
+My wedding page 
 
 
-Based on https://github.com/shyamjos/wedding-website
+Template ased on https://github.com/shyamjos/wedding-website

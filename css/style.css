@@ -6,6 +6,9 @@
   font-style: normal;
 }
 @font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
+
+
+
 /* =======================================================
 *
 * 	Template Style 
@@ -952,6 +955,7 @@ form label {
 
 #fh5co-testimonial,
 #fh5co-services,
+#fh5co-registry, /* added by shengting*/
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
